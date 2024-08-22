@@ -1,6 +1,6 @@
 const request = require('request');
 const { expect } = require('chai');
-const app = require('./api');
+
 
 describe('Index page', () => {
   it('Correct status code?', (done) => {
